@@ -1,0 +1,411 @@
+/*
+
+author: Mahadi Hasan Babu;
+mail: mahadi4eee02@gmail.com;
+website: ;
+
+*/
+
+/*
+
+    =====Index====
+    1. Header
+    2. Home
+    3. How it works
+    4. Discover a project
+    5. Blog
+    6. Find out more
+    7. Footer
+
+*/
+
+/* Global Css */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+</style>
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{}
+
+h2{}
+
+h3{}
+
+h4{}
+
+h5{}
+
+h6{}
+
+p{}
+
+.btn:hover {
+    color: #7585f7ba;
+}
+
+/* Theme css */
+
+
+/* header */
+
+.nav-head {
+    background-color: white;
+    padding: 35px;
+}
+.nav-link{
+    color: black;
+}
+
+.nav-link.js-scroll-trigger.active {
+    background-color: #D84D36;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+}
+
+/* Home */
+
+.hero {
+    background: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    padding: 300px 0px 200px 0px;
+}
+
+.hero-main{
+    text-align: center;
+}
+
+.hero-main h2 {
+    color: white;
+    text-transform: capitalize;
+    font-size: 50px;
+    font-weight: 400;
+    word-spacing: 5px;
+}
+
+.hero-main p {
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    padding-bottom: 25px;
+}
+
+.btn-mem {
+    background-color: #9AC408;
+    border: none;
+    padding: 20px 35px;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 15px;
+}
+.btn-mem:hover {
+    color: #7585f7ba;
+}
+
+
+/* how it works */
+
+.description{
+    text-align: center;
+}
+
+.description-main{}
+
+.description-img {
+    padding: 40px 0px 40px 0px;
+    width: 75px;
+}
+
+.description-main h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    line-height: 45px;
+}
+
+.description-main p {
+    color: #897676;
+    
+}
+
+
+/*Discover a project*/
+
+.project{}
+
+.project-left{
+    background-color: #E3F8FD;
+}
+
+.project-right{
+    background-color: #F6F8EB;
+}
+
+.project-icon-left {
+    text-align: center;
+    padding: 70px 0px;
+    right: -53px;
+}
+
+.project-icon-right {
+    text-align: center;
+    padding: 80px 0px;
+    right: -53px;
+}
+
+.project-text{}
+
+.project-text h4 {
+    padding: 30px 0px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.project-text p {
+    text-align: left;
+    padding-right: 40px;
+    line-height: 25px;
+}
+
+.btn-left {
+    background-color: #25A5CD;
+    border: none;
+    padding: 20px 35px;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+.btn-left:hover {
+    color: black;
+}
+.btn-right{
+    background-color: #9AC408;
+    border: none;
+    padding: 20px 35px;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+.btn-right:hover {
+    color: #7585f7ba;
+}
+
+        /*Blog*/
+
+.blog-main{}
+
+.blog-main h2 {
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+
+.blog-main p {
+    color: #897676;
+    font-size: 18px;
+}
+
+
+.btn-blog {
+    background-color: transparent;
+    border: 1px solid;
+    padding: 20px 35px;
+    color: black;
+    text-transform: capitalize;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+
+.btn-blog:hover{
+    background-color: rebeccapurple;
+    color: white;
+}
+
+
+/*--blog--*/
+
+.card-main {
+    background-color: #FAFAFA;
+    
+    box-sizing: border-box;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 15px;
+}
+
+.card-items{}
+
+.card-img{
+
+}
+
+.img-style {
+    width: 100%;
+    position: relative;
+}
+
+.btn-frm {
+    border: none;
+    background-color: #3AB0CE;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 7px;
+    position: absolute;
+    top: 28%;
+    right: 8%;
+}
+
+.card-content{}
+
+.card-content h4 {
+    font-size: 23px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.card-content p {
+    font-size: 16px;
+    
+}
+.days p {
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+}
+.child P {
+    position: absolute;
+    bottom: 82px;
+    right: 5%;
+}
+
+.card-content span {
+    width: 250px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 25px auto;
+    display: block;
+}
+
+.play{}
+
+.play p {
+    text-align: right;
+    font-size: 20px;
+}
+
+.fa.fa-play {
+    color: #ACD432;
+    font-size: 25px;
+    padding: 0px 5px;
+}
+
+
+/*--Footer--*/
+
+.last-part {
+    text-align: center;
+    display: block;
+    margin: 0px auto;
+}
+
+.img-fot{}
+
+.last-part span {
+    border: 1px solid black;
+    width: 100%;
+    display: block;
+    margin: 40px 0px;
+}
+
+.last-part p{}
+
+
+
+
+
+
+
+/*=====mobile device=====*/
+
+@media(max-width:500px){
+    
+.hero-main h2 {
+    color: white;
+    text-transform: capitalize;
+    font-size: 30px;
+    text-align: center;
+}
+.hero-main p {
+    color: white;
+    font-size: 23px;
+    padding-bottom: 25px;
+}
+
+.description-main h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.project-left {
+    background-color: #E3F8FD;
+    text-align: center;
+}
+
+.project-icon-left {
+    text-align: center;
+    padding: 35px 0px;
+     right: 0px;
+}
+
+.project-text p {
+    text-align: center;
+    padding: 12px 0px;
+    line-height: 25px;
+}
+
+.project-right {
+    background-color: #F6F8EB;
+    text-align: center;
+}
+
+.project-icon-right {
+    text-align: center;
+    padding: 35px 0px;
+     right: 0px;
+}
+
+.blog-main{
+    text-align: center;
+}
+
+.btn-blog {
+    display: block;
+    margin: 10px auto;
+}
+
+.card-main {
+    margin-bottom: 30px;
+}
+.card-content h4 {
+    text-align: center;
+}
+
+.card-content p {
+    text-align: center;
+}
+}
